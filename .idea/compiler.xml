@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gulimail-coupon" />
+        <module name="gulimail-member" />
+        <module name="gulimail-order" />
+        <module name="gulimail-ware" />
         <module name="gulimail-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gulimail-coupon" target="1.5" />
+      <module name="gulimail-member" target="1.5" />
+      <module name="gulimail-order" target="1.5" />
       <module name="gulimail-product" target="1.5" />
+      <module name="gulimail-ware" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
